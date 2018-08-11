@@ -1,21 +1,21 @@
-import React from 'react'
+import React from '../../../../../Library/Caches/typescript/2.9/node_modules/@types/react'
 import styled from 'styled-components'
-import { Link } from 'react-router';
+import { Link } from '../../../../../Library/Caches/typescript/2.9/node_modules/@types/react-router';
 
 // Import Button component
-import Button from './../components/Button'
+import Button from '../components/Button'
 
 // Import Container component
-import Container from './../components/Container'
+import Container from '../components/Container'
 
 // Import Section component
-import Section from './../components/Section'
+import Section from '../components/Section'
 
 // Import typography components
-import { Heading, Subheading } from './../components/Typography'
+import { Heading, Subheading } from '../components/Typography'
 
 // Import AwesomeIcon
-import AwesomeIcon from './../components/AwesomeIcon'
+import AwesomeIcon from '../components/AwesomeIcon'
 
 const HomeWrapper = styled(Section)`
   /* background-image: url(https://source.unsplash.com/t3zrEm88ehc/480x800); */

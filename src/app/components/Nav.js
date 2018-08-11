@@ -1,5 +1,5 @@
 // Nav.js
-import React from 'react'
+import React from '../../../../../Library/Caches/typescript/2.9/node_modules/@types/react'
 import styled, { css } from 'styled-components'
 
 const Header = styled.header`

@@ -1,17 +1,17 @@
-import React from 'react'
+import React from '../../../../../Library/Caches/typescript/2.9/node_modules/@types/react'
 import styled from 'styled-components'
 
 // Import Container component
-import Container from './../components/Container'
+import Container from '../components/Container'
 
 // Import Link component
-import Link from './../components/Link'
+import Link from '../components/Link'
 
 // Import Section component
-import Section from './../components/Section'
+import Section from '../components/Section'
 
 // Import typography components
-import { Heading, Subheading, Text } from './../components/Typography'
+import { Heading, Subheading, Text } from '../components/Typography'
 
 const AboutWrapper = styled(Section)`
   background-image: url(https://source.unsplash.com/t3zrEm88ehc/480x800);

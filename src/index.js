@@ -1,11 +1,11 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
-import { BrowserRouter } from 'react-router-dom'
+import React from '../../../Library/Caches/typescript/2.9/node_modules/@types/react'
+import ReactDOM from '../../../Library/Caches/typescript/2.9/node_modules/@types/react-dom'
+import { BrowserRouter } from '../../../Library/Caches/typescript/2.9/node_modules/@types/react-router-dom'
 
 // import injectGlobal helper
 import { injectGlobal } from 'styled-components'
 
-import Main from './App/Main'
+import Main from './app/Main'
 
 // Global style
 injectGlobal`

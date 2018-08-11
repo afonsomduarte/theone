@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Route, Router, BrowserRouter, browserHistory } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 
 // import injectGlobal helper
 import { injectGlobal } from 'styled-components';
@@ -40,12 +40,9 @@ injectGlobal`
 const wrapper = document.getElementById('app')
 
 const App = () => (
-  
-  <Router history={browserHistory}>
   <BrowserRouter>
     <Main />
   </BrowserRouter>
-  </Router>
 )
 
 ReactDOM.render(<App />, wrapper)

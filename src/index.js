@@ -1,11 +1,11 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
-import { BrowserRouter } from 'react-router-dom'
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { BrowserRouter } from 'react-router-dom';
 
 // import injectGlobal helper
-import { injectGlobal } from 'styled-components'
+import { injectGlobal } from 'styled-components';
 
-import Main from './app/Main'
+import Main from './app/Main';
 
 // Global style
 injectGlobal`

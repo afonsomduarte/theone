@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { HashRouter } from 'react-router-dom'
+import { BrowserRouter } from 'react-router-dom'
 
 // import injectGlobal helper
 import { injectGlobal } from 'styled-components'
@@ -40,9 +40,9 @@ injectGlobal`
 const wrapper = document.getElementById('app')
 
 const App = () => (
-  <HashRouter>
+  <BrowserRouter>
     <Main />
-  </HashRouter>
+  </BrowserRouter>
 )
 
 ReactDOM.render(<App />, wrapper)

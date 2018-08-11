@@ -1,8 +1,6 @@
 {
   "name": "react-website",
   "version": "1.0.0",
-  "private": true,
-  "homepage": "https://afonsomduarte.github.io/theone/",
   "description": "A simple website built with react.",
   "engines": {
     "node": ">=9.x",
@@ -26,6 +24,7 @@
   "license": "MIT",
   "dependencies": {
     "node": "^10.8.0",
+    "parcel": "^1.9.7",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-router-dom": "^4.3.1",

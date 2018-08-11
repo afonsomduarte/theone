@@ -2,7 +2,7 @@
   "name": "react-website",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://afonsomduarte.github.io/website/",
+  "homepage": "https://afonsomduarte.github.io/theone/",
   "description": "A simple website built with react.",
   "engines": {
     "node": ">=9.x",
@@ -20,7 +20,7 @@
     "build": "parcel build ./src/index.html",
     "start": "parcel ./src/index.html -p 1337",
     "predeploy": "npm run-script build",
-    "deploy": "gh-pages -d build ./src/index.html"
+    "deploy": "gh-pages -d src"
   },
   "author": "Afonso Duarte",
   "license": "MIT",

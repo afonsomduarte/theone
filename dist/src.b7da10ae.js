@@ -28644,7 +28644,7 @@ var wrapper = document.getElementById('app');
 
 var App = function App() {
   return _react2.default.createElement(
-    _reactRouterDom.BrowserRouter,
+    _reactRouterDom.HashRouter,
     null,
     _react2.default.createElement(_Main2.default, null)
   );
@@ -28680,7 +28680,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '52475' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '52339' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 

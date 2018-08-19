@@ -106,7 +106,7 @@ export default class Home extends React.Component {
 
           <Subheading>Engineering Student</Subheading>
 
-          <HomeButton href="/Curriculum">My path</HomeButton>
+          <HomeButton href="/#/Curriculum">My path</HomeButton>
 
             <IconList>
                 <li><AwesomeIcon icon="fab fa-react fa-lg"/></li>

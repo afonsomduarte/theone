@@ -28197,7 +28197,7 @@ var Home = function (_React$Component) {
           ),
           _react2.default.createElement(
             HomeButton,
-            { href: '/Curriculum' },
+            { href: '/#/Curriculum' },
             'My path'
           ),
           _react2.default.createElement(

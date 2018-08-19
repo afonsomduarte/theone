@@ -18,27 +18,26 @@ import { Heading, Subheading } from './../components/Typography'
 import AwesomeIcon from './../components/AwesomeIcon'
 
 const HomeWrapper = styled(Section)`
-  /* background-image: url(https://source.unsplash.com/t3zrEm88ehc/480x800); */
-  background-image: url(https://lh6.googleusercontent.com/f4fT4HwpV3h0P7wtPwtXwZomRyJL5LIhoX2Xa6ohcuZHd_7fzrswTXOBwdpam5LBpvjAWtWvH2eXO0AuTN-5=w2880-h1562-rw);
+  background-image: url(https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
 
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 
   @media (min-width: 480px) {
-    background-image: url(https://lh6.googleusercontent.com/f4fT4HwpV3h0P7wtPwtXwZomRyJL5LIhoX2Xa6ohcuZHd_7fzrswTXOBwdpam5LBpvjAWtWvH2eXO0AuTN-5=w2880-h1562-rw);
+    background-image: url(https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
   }
 
   @media (min-width: 768px) {
-    background-image: url(https://lh6.googleusercontent.com/f4fT4HwpV3h0P7wtPwtXwZomRyJL5LIhoX2Xa6ohcuZHd_7fzrswTXOBwdpam5LBpvjAWtWvH2eXO0AuTN-5=w2880-h1562-rw);
+    background-image: url(https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
   }
 
   @media (min-width: 1280px) {
-    background-image: url(https://lh6.googleusercontent.com/f4fT4HwpV3h0P7wtPwtXwZomRyJL5LIhoX2Xa6ohcuZHd_7fzrswTXOBwdpam5LBpvjAWtWvH2eXO0AuTN-5=w2880-h1562-rw);
+    background-image: url(https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
   }
 
   @media (min-width: 1600px) {
-    background-image: url(https://lh6.googleusercontent.com/f4fT4HwpV3h0P7wtPwtXwZomRyJL5LIhoX2Xa6ohcuZHd_7fzrswTXOBwdpam5LBpvjAWtWvH2eXO0AuTN-5=w2880-h1562-rw);
+    background-image: url(https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
   }
 
   &::before {

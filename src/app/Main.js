@@ -10,16 +10,22 @@ import Curriculum from './pages/Curriculum'
 // Import nav component
 import Nav from './components/Nav'
 
+
+
+
 export default class Main extends React.Component {
   render () {
     return (
       <div className="wrapper">
-        <Nav />
+        
+       
+        <Nav/>
 
         <Route exact={true} path="/" component={Home}/>
         <Route path="/about" component={About}/>
         <Route path="/contact" component={Contact}/>
         <Route path="/curriculum" component={Curriculum}/>
+
       </div>
     )
   }

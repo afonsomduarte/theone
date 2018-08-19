@@ -28500,7 +28500,7 @@ var Nav = function (_React$Component) {
               null,
               _react2.default.createElement(
                 'a',
-                { href: '/about' },
+                { href: '/#/about' },
                 'About'
               )
             ),
@@ -28509,7 +28509,7 @@ var Nav = function (_React$Component) {
               null,
               _react2.default.createElement(
                 'a',
-                { href: '/Curriculum' },
+                { href: '/#/Curriculum' },
                 'Curriculum'
               )
             ),
@@ -28518,7 +28518,7 @@ var Nav = function (_React$Component) {
               null,
               _react2.default.createElement(
                 'a',
-                { href: '/contact' },
+                { href: '/#/contact' },
                 'Contact'
               )
             )

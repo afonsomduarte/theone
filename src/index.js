@@ -41,8 +41,8 @@ const wrapper = document.getElementById('app')
 
 const App = () => (
   <BrowserRouter>
-    <Main />
+    <Main/>
   </BrowserRouter>
 )
 
-ReactDOM.render(<App />, wrapper)
+ReactDOM.render(<App/>, wrapper)

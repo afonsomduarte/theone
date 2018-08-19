@@ -19,26 +19,26 @@ import AwesomeIcon from './../components/AwesomeIcon'
 
 const HomeWrapper = styled(Section)`
   /* background-image: url(https://source.unsplash.com/t3zrEm88ehc/480x800); */
-  background-image: url(https://lh5.googleusercontent.com/aSXzTgbQffD1uKD79hZM8HZG7GOlqt4IACBaztiGgHz7sU3HVb5r7PNnXVXXn2adWj4H_2eUT643Lg=w2880-h1588);
+  background-image: url(https://lh6.googleusercontent.com/f4fT4HwpV3h0P7wtPwtXwZomRyJL5LIhoX2Xa6ohcuZHd_7fzrswTXOBwdpam5LBpvjAWtWvH2eXO0AuTN-5=w2880-h1562-rw);
 
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 
   @media (min-width: 480px) {
-    background-image: url(https://lh5.googleusercontent.com/aSXzTgbQffD1uKD79hZM8HZG7GOlqt4IACBaztiGgHz7sU3HVb5r7PNnXVXXn2adWj4H_2eUT643Lg=w2880-h1588);
+    background-image: url(https://lh6.googleusercontent.com/f4fT4HwpV3h0P7wtPwtXwZomRyJL5LIhoX2Xa6ohcuZHd_7fzrswTXOBwdpam5LBpvjAWtWvH2eXO0AuTN-5=w2880-h1562-rw);
   }
 
   @media (min-width: 768px) {
-    background-image: url(https://lh5.googleusercontent.com/aSXzTgbQffD1uKD79hZM8HZG7GOlqt4IACBaztiGgHz7sU3HVb5r7PNnXVXXn2adWj4H_2eUT643Lg=w2880-h1588);
+    background-image: url(https://lh6.googleusercontent.com/f4fT4HwpV3h0P7wtPwtXwZomRyJL5LIhoX2Xa6ohcuZHd_7fzrswTXOBwdpam5LBpvjAWtWvH2eXO0AuTN-5=w2880-h1562-rw);
   }
 
   @media (min-width: 1280px) {
-    background-image: url(https://lh5.googleusercontent.com/aSXzTgbQffD1uKD79hZM8HZG7GOlqt4IACBaztiGgHz7sU3HVb5r7PNnXVXXn2adWj4H_2eUT643Lg=w2880-h1588);
+    background-image: url(https://lh6.googleusercontent.com/f4fT4HwpV3h0P7wtPwtXwZomRyJL5LIhoX2Xa6ohcuZHd_7fzrswTXOBwdpam5LBpvjAWtWvH2eXO0AuTN-5=w2880-h1562-rw);
   }
 
   @media (min-width: 1600px) {
-    background-image: url(https://lh5.googleusercontent.com/aSXzTgbQffD1uKD79hZM8HZG7GOlqt4IACBaztiGgHz7sU3HVb5r7PNnXVXXn2adWj4H_2eUT643Lg=w2880-h1588);
+    background-image: url(https://lh6.googleusercontent.com/f4fT4HwpV3h0P7wtPwtXwZomRyJL5LIhoX2Xa6ohcuZHd_7fzrswTXOBwdpam5LBpvjAWtWvH2eXO0AuTN-5=w2880-h1562-rw);
   }
 
   &::before {

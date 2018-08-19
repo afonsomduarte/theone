@@ -126,7 +126,7 @@ export default class Nav extends React.Component {
             </NavItem>
 
             <NavItem>
-              <a href="/#/Curriculum">Curriculum</a>
+              <a href="/">Curriculum</a>
             </NavItem>
 
             <NavItem>

@@ -14,25 +14,25 @@ import Section from './../components/Section'
 import { Heading, Subheading, Text } from './../components/Typography'
 
 const AboutWrapper = styled(Section)`
-  background-image: url(https://source.unsplash.com/t3zrEm88ehc/480x800);
+  background-image: url(https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 
   @media (min-width: 480px) {
-    background-image: url(https://lh5.googleusercontent.com/aSXzTgbQffD1uKD79hZM8HZG7GOlqt4IACBaztiGgHz7sU3HVb5r7PNnXVXXn2adWj4H_2eUT643Lg=w2880-h1588);
+    background-image: url(https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
   }
 
   @media (min-width: 768px) {
-    background-image: url(https://lh5.googleusercontent.com/aSXzTgbQffD1uKD79hZM8HZG7GOlqt4IACBaztiGgHz7sU3HVb5r7PNnXVXXn2adWj4H_2eUT643Lg=w2880-h1588);
+    background-image: url(https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
   }
 
   @media (min-width: 1280px) {
-    background-image: url(https://lh5.googleusercontent.com/aSXzTgbQffD1uKD79hZM8HZG7GOlqt4IACBaztiGgHz7sU3HVb5r7PNnXVXXn2adWj4H_2eUT643Lg=w2880-h1588);
+    background-image: url(https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
   }
 
   @media (min-width: 1600px) {
-    background-image: url(https://lh5.googleusercontent.com/aSXzTgbQffD1uKD79hZM8HZG7GOlqt4IACBaztiGgHz7sU3HVb5r7PNnXVXXn2adWj4H_2eUT643Lg=w2880-h1588);
+    background-image: url(https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
   }
 
   &::before {
@@ -43,7 +43,7 @@ const AboutWrapper = styled(Section)`
     content: '';
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, .4);
+    background-color: rgba(0, 0, 0, .5);
   }
 
   ${Container} {

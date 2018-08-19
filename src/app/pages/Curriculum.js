@@ -21,6 +21,7 @@ const CurriculumGrid = styled.div`
   padding-bottom: 32px;
   display: flex;
   flex-wrap: wrap;
+  
 `
 
 const CurriculumItem = styled.a`
@@ -87,6 +88,7 @@ const CurriculumItem = styled.a`
 const CurriculumItemThumbnail = styled.img`
   max-width: 100%;
   object-fit: contain;
+  
 `
 
 export default class Curriculum extends React.Component {

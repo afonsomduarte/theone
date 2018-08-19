@@ -10,9 +10,6 @@ import Curriculum from './pages/Curriculum'
 // Import nav component
 import Nav from './components/Nav'
 
-
-
-
 export default class Main extends React.Component {
   render () {
     return (

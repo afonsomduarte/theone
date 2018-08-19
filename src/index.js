@@ -1,18 +1,11 @@
-import 'core-js/es6/map';
-import 'core-js/es6/set';
-import 'core-js/fn/array/find';
-import 'core-js/fn/array/includes';
-import 'core-js/fn/number/is-nan';
-
-
-import React from 'react';
-import ReactDOM from 'react-dom';
-import { BrowserRouter } from 'react-router-dom';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import { BrowserRouter } from 'react-router-dom'
 
 // import injectGlobal helper
-import { injectGlobal } from 'styled-components';
+import { injectGlobal } from 'styled-components'
 
-import Main from './app/Main';
+import Main from './app/Main'
 
 // Global style
 injectGlobal`
@@ -23,6 +16,8 @@ injectGlobal`
     min-height: 100vh;
     height: 100%;
   }
+
+
 
   html {
     box-sizing: border-box;
@@ -48,8 +43,8 @@ const wrapper = document.getElementById('app')
 
 const App = () => (
   <BrowserRouter>
-    <Main/>
+    <Main />
   </BrowserRouter>
 )
 
-ReactDOM.render(<App/>, wrapper)
+ReactDOM.render(<App />, wrapper)

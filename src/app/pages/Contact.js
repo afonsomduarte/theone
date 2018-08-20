@@ -81,7 +81,7 @@ export default class Contact extends React.Component {
         <Container>
           <Heading>Say hello</Heading>
 
-          <Text>If you are interested in a new project, collaboration, or just to chat, feel free to contact me.</Text>
+          <Text>If you are interested in a new project or collaboration feel free to contact me.</Text>
 
           <ContactLink href="mailto:afonso.martins.duarte@gmail.com">afonso.martins.duarte@gmail.com</ContactLink>
 

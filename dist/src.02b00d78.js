@@ -27892,7 +27892,7 @@ var _createClass = function () { function defineProperties(target, props) { for 
 
 var _templateObject = _taggedTemplateLiteral(['\n  background-color: black;\n  background-size: cover;\n  background-repeat: no-repeat;\n  background-position: center;\n\n  &::before {\n    position: absolute;\n    top: 0;\n    left: 0;\n    z-index: 1;\n    content: \'\';\n    width: 100%;\n    height: 100%;\n    background-color: rgba(0, 0, 0, .4);\n  }\n\n  ', ' {\n    color: #fff;\n    \n  }\n'], ['\n  background-color: black;\n  background-size: cover;\n  background-repeat: no-repeat;\n  background-position: center;\n\n  &::before {\n    position: absolute;\n    top: 0;\n    left: 0;\n    z-index: 1;\n    content: \'\';\n    width: 100%;\n    height: 100%;\n    background-color: rgba(0, 0, 0, .4);\n  }\n\n  ', ' {\n    color: #fff;\n    \n  }\n']),
     _templateObject2 = _taggedTemplateLiteral(['\n  margin-bottom: 32px;\n  display: inline-block;\n  font-size: 16px;\n\n  @media (min-width: 768px) {\n    font-size: 18px;\n  }\n'], ['\n  margin-bottom: 32px;\n  display: inline-block;\n  font-size: 16px;\n\n  @media (min-width: 768px) {\n    font-size: 18px;\n  }\n']),
-    _templateObject3 = _taggedTemplateLiteral(['\n  padding: 0;\n  margin: 0;\n\n  li {\n    display: inline-block;\n    list-style-type: none;\n    pos\n\n    &:not(:last-child) {\n      margin-right: 16px;\n    }\n  }\n\n\n  a {\n    font-size: 18px;\n\n    @media (min-width: 480px) {\n      font-size: 24px;\n    }\n  }\n'], ['\n  padding: 0;\n  margin: 0;\n\n  li {\n    display: inline-block;\n    list-style-type: none;\n    pos\n\n    &:not(:last-child) {\n      margin-right: 16px;\n    }\n  }\n\n\n  a {\n    font-size: 18px;\n\n    @media (min-width: 480px) {\n      font-size: 24px;\n    }\n  }\n']);
+    _templateObject3 = _taggedTemplateLiteral(['\ndisplay: inline;\npadding: 0;\nmargin: 0;\n\nli {\n  display: inline-block;\n  list-style-type: none; \n  \n\n  &:not(:last-child) {\n    margin-right: 3%;\n    \n  }\n}\n\n\na {\n  font-size: 18px;\n\n  @media (min-width: 480px) {\n    font-size: 24px;\n    \n  }\n}\n'], ['\ndisplay: inline;\npadding: 0;\nmargin: 0;\n\nli {\n  display: inline-block;\n  list-style-type: none; \n  \n\n  &:not(:last-child) {\n    margin-right: 3%;\n    \n  }\n}\n\n\na {\n  font-size: 18px;\n\n  @media (min-width: 480px) {\n    font-size: 24px;\n    \n  }\n}\n']);
 
 var _react = require('react');
 
@@ -28001,7 +28001,16 @@ var Contact = function (_React$Component) {
                 _react2.default.createElement(
                   _Link2.default,
                   { href: 'https://www.linkedin.com/in/afonsomduarte' },
-                  _react2.default.createElement(_AwesomeIcon2.default, { icon: 'fab fa-linkedin-in' })
+                  _react2.default.createElement(_AwesomeIcon2.default, { icon: 'fab fa-linkedin-in fa-lg' })
+                )
+              ),
+              _react2.default.createElement(
+                'li',
+                null,
+                _react2.default.createElement(
+                  _Link2.default,
+                  { href: 'https://www.instagram.com/afonsomduarte' },
+                  _react2.default.createElement(_AwesomeIcon2.default, { icon: 'fab fa-instagram fa-lg' })
                 )
               )
             )
@@ -28717,7 +28726,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '61136' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '52627' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 

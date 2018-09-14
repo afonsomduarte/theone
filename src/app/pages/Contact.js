@@ -50,27 +50,30 @@ const ContactLink = styled(Link)`
 `
 
 const SocialMediaList = styled.ul`
-  padding: 0;
-  margin: 0;
+display: inline;
+padding: 0;
+margin: 0;
 
-  li {
-    display: inline-block;
-    list-style-type: none;
-    pos
+li {
+  display: inline-block;
+  list-style-type: none; 
+  
 
-    &:not(:last-child) {
-      margin-right: 16px;
-    }
+  &:not(:last-child) {
+    margin-right: 3%;
+    
   }
+}
 
 
-  a {
-    font-size: 18px;
+a {
+  font-size: 18px;
 
-    @media (min-width: 480px) {
-      font-size: 24px;
-    }
+  @media (min-width: 480px) {
+    font-size: 24px;
+    
   }
+}
 `
 
 export default class Contact extends React.Component {
@@ -88,11 +91,22 @@ export default class Contact extends React.Component {
           <Text>Follow me across the web:</Text>
 
           <SocialMediaList>
+
             <li>
+
               <Link href="https://www.linkedin.com/in/afonsomduarte">
-                <AwesomeIcon icon="fab fa-linkedin-in"/>
+                <AwesomeIcon icon="fab fa-linkedin-in fa-lg"/>
               </Link>
-            </li>
+              </li>
+            
+            <li>
+
+              <Link href="https://www.instagram.com/afonsomduarte">
+                <AwesomeIcon icon="fab fa-instagram fa-lg"/>
+              </Link>
+              </li>
+
+            
           </SocialMediaList>
         </Container>
       </Section>

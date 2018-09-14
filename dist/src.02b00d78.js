@@ -28000,7 +28000,7 @@ var Contact = function (_React$Component) {
                 null,
                 _react2.default.createElement(
                   _Link2.default,
-                  { href: 'https://www.linkedin.com/in/afonsomduarte' },
+                  { href: 'https://www.linkedin.com/in/afonsomduarte', target: '_blank' },
                   _react2.default.createElement(_AwesomeIcon2.default, { icon: 'fab fa-linkedin-in fa-lg' })
                 )
               ),
@@ -28009,7 +28009,7 @@ var Contact = function (_React$Component) {
                 null,
                 _react2.default.createElement(
                   _Link2.default,
-                  { href: 'https://www.instagram.com/afonsomduarte' },
+                  { href: 'https://www.instagram.com/afonsomduarte', target: '_blank' },
                   _react2.default.createElement(_AwesomeIcon2.default, { icon: 'fab fa-instagram fa-lg' })
                 )
               )

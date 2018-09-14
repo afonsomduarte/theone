@@ -94,14 +94,14 @@ export default class Contact extends React.Component {
 
             <li>
 
-              <Link href="https://www.linkedin.com/in/afonsomduarte">
+              <Link href="https://www.linkedin.com/in/afonsomduarte" target="_blank">
                 <AwesomeIcon icon="fab fa-linkedin-in fa-lg"/>
               </Link>
               </li>
             
             <li>
 
-              <Link href="https://www.instagram.com/afonsomduarte">
+              <Link href="https://www.instagram.com/afonsomduarte" target="_blank">
                 <AwesomeIcon icon="fab fa-instagram fa-lg"/>
               </Link>
               </li>

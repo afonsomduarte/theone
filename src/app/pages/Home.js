@@ -18,26 +18,26 @@ import { Heading, Subheading } from './../components/Typography'
 import AwesomeIcon from './../components/AwesomeIcon'
 
 const HomeWrapper = styled(Section)`
-  background-image: url(https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-image: url(http://bozhuwallpaper.com/img/4k-landscape-wallpapers-hd-As-Wallpaper-HD-1.jpg);
 
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 
   @media (min-width: 480px) {
-    background-image: url(https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-image: url(http://bozhuwallpaper.com/img/4k-landscape-wallpapers-hd-As-Wallpaper-HD-1.jpg);
   }
 
   @media (min-width: 768px) {
-    background-image: url(https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-image: url(http://bozhuwallpaper.com/img/4k-landscape-wallpapers-hd-As-Wallpaper-HD-1.jpg);
   }
 
   @media (min-width: 1280px) {
-    background-image: url(https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-image: url(http://bozhuwallpaper.com/img/4k-landscape-wallpapers-hd-As-Wallpaper-HD-1.jpg);
   }
 
   @media (min-width: 1600px) {
-    background-image: url(https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-image: url(http://bozhuwallpaper.com/img/4k-landscape-wallpapers-hd-As-Wallpaper-HD-1.jpg);
   }
 
   &::before {
@@ -106,7 +106,7 @@ export default class Home extends React.Component {
 
           <Subheading>Engineering Student</Subheading>
 
-          <HomeButton href="/">My path</HomeButton>
+          <HomeButton href="/#/curriculum">My path</HomeButton>
 
             <IconList>
                 <li><AwesomeIcon icon="fab fa-react fa-lg"/></li>

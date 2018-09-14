@@ -126,7 +126,7 @@ export default class Nav extends React.Component {
             </NavItem>
 
             <NavItem onClick={this.toggleMenu}>
-              <a href="/">Curriculum</a>
+              <a href="/#/curriculum">Curriculum</a>
             </NavItem>
 
             <NavItem onClick={this.toggleMenu}>

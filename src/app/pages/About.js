@@ -14,25 +14,25 @@ import Section from './../components/Section'
 import { Heading, Subheading, Text } from './../components/Typography'
 
 const AboutWrapper = styled(Section)`
-  background-image: url(https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-image: url(http://bozhuwallpaper.com/img/4k-landscape-wallpapers-hd-As-Wallpaper-HD-1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 
   @media (min-width: 480px) {
-    background-image: url(https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-image: url(http://bozhuwallpaper.com/img/4k-landscape-wallpapers-hd-As-Wallpaper-HD-1.jpg);
   }
 
   @media (min-width: 768px) {
-    background-image: url(https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-image: url(http://bozhuwallpaper.com/img/4k-landscape-wallpapers-hd-As-Wallpaper-HD-1.jpg);
   }
 
   @media (min-width: 1280px) {
-    background-image: url(https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-image: url(http://bozhuwallpaper.com/img/4k-landscape-wallpapers-hd-As-Wallpaper-HD-1.jpg);
   }
 
   @media (min-width: 1600px) {
-    background-image: url(https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-image: url(http://bozhuwallpaper.com/img/4k-landscape-wallpapers-hd-As-Wallpaper-HD-1.jpg);
   }
 
   &::before {

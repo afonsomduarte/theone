@@ -14,25 +14,25 @@ import Section from './../components/Section'
 import { Heading, Subheading, Text } from './../components/Typography'
 
 const AboutWrapper = styled(Section)`
-  background-image: url(https://www.imgbase.info/images/safe-wallpapers/photography/landscape/42798_landscape.jpg);
+  background-image: url(https://focusfixed.com/blog/wp-content/uploads/2016/11/pexels-photo-115045.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 
   @media (min-width: 480px) {
-    background-image: url(https://www.imgbase.info/images/safe-wallpapers/photography/landscape/42798_landscape.jpg);
+    background-image: url(https://focusfixed.com/blog/wp-content/uploads/2016/11/pexels-photo-115045.jpeg);
   }
 
   @media (min-width: 768px) {
-    background-image: url(https://www.imgbase.info/images/safe-wallpapers/photography/landscape/42798_landscape.jpg);
+    background-image: url(https://focusfixed.com/blog/wp-content/uploads/2016/11/pexels-photo-115045.jpeg);
   }
 
   @media (min-width: 1280px) {
-    background-image: url(https://www.imgbase.info/images/safe-wallpapers/photography/landscape/42798_landscape.jpg);
+    background-image: url(https://focusfixed.com/blog/wp-content/uploads/2016/11/pexels-photo-115045.jpeg);
   }
 
   @media (min-width: 1600px) {
-    background-image: url(https://www.imgbase.info/images/safe-wallpapers/photography/landscape/42798_landscape.jpg);
+    background-image: url(https://focusfixed.com/blog/wp-content/uploads/2016/11/pexels-photo-115045.jpeg);
   }
 
   &::before {

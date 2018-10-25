@@ -18,26 +18,26 @@ import { Heading, Subheading } from './../components/Typography'
 import AwesomeIcon from './../components/AwesomeIcon'
 
 const HomeWrapper = styled(Section)`
-  background-image: url(http://bozhuwallpaper.com/img/4k-landscape-wallpapers-hd-As-Wallpaper-HD-1.jpg);
+  background-image: url(https://focusfixed.com/blog/wp-content/uploads/2016/11/pexels-photo-115045.jpeg);
 
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 
   @media (min-width: 480px) {
-    background-image: url(http://bozhuwallpaper.com/img/4k-landscape-wallpapers-hd-As-Wallpaper-HD-1.jpg);
+    background-image: url(https://focusfixed.com/blog/wp-content/uploads/2016/11/pexels-photo-115045.jpeg);
   }
 
   @media (min-width: 768px) {
-    background-image: url(http://bozhuwallpaper.com/img/4k-landscape-wallpapers-hd-As-Wallpaper-HD-1.jpg);
+    background-image: url(https://focusfixed.com/blog/wp-content/uploads/2016/11/pexels-photo-115045.jpeg);
   }
 
   @media (min-width: 1280px) {
-    background-image: url(http://bozhuwallpaper.com/img/4k-landscape-wallpapers-hd-As-Wallpaper-HD-1.jpg);
+    background-image: url(https://focusfixed.com/blog/wp-content/uploads/2016/11/pexels-photo-115045.jpeg);
   }
 
   @media (min-width: 1600px) {
-    background-image: url(http://bozhuwallpaper.com/img/4k-landscape-wallpapers-hd-As-Wallpaper-HD-1.jpg);
+    background-image: url(https://focusfixed.com/blog/wp-content/uploads/2016/11/pexels-photo-115045.jpeg);
   }
 
   &::before {

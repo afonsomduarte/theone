@@ -76,7 +76,7 @@ export default class About extends React.Component {
                   solver that pursues a holistic approach.</Text>
 
                 <Text>Currently I am studying for my Master's Degree in Telecommunications. I occasionally indulge in some freelance work 
-                in Web Development, building interactive digital products. If you are interested in a new project, collaboration, or just to chat, feel free to contact me:</Text>
+                in web development, translation, editing & proofreading and Resume building. If you are interested in a new project, collaboration, or just to chat, feel free to contact me:</Text>
 
                 <Section centered><Link href="mailto:afonso.martins.duarte@gmail.com">afonso.martins.duarte@gmail.com</Link></Section>
                 
